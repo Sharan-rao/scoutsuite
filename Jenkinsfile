@@ -4,7 +4,7 @@ pipeline {
          stage('Build') {
              steps {
                  sh 'echo "Hello World"'
-                 sh 'sudo apt-get update'
+                 sh 'apt-get update'
                
              }
          }      
